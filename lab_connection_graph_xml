@@ -1,0 +1,84 @@
+<LabConnectionGraph>
+  <PhysicalNetworkGraphDeclaration>
+    <Devices>
+      <Device Hostname="str-7260-10" HwSku="S6510-48VS8CQ" Type="FanoutLeaf"/>
+      <Device Hostname="str-msn2700-01" HwSku="B6510-48VS8CQ" Type="DevSonic"/>
+      <Device Hostname="STR-ACS-VSERV-01" HwSku="admin5" Type="Server"/>
+    </Devices>
+    <DeviceInterfaceLinks>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/2" StartDevice="str-msn2700-01" StartPort="Ethernet1"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/3" StartDevice="str-msn2700-01" StartPort="Ethernet2"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/4" StartDevice="str-msn2700-01" StartPort="Ethernet3"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/5" StartDevice="str-msn2700-01" StartPort="Ethernet4"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/6" StartDevice="str-msn2700-01" StartPort="Ethernet5"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/7" StartDevice="str-msn2700-01" StartPort="Ethernet6"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/8" StartDevice="str-msn2700-01" StartPort="Ethernet7"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/9" StartDevice="str-msn2700-01" StartPort="Ethernet8"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/10" StartDevice="str-msn2700-01" StartPort="Ethernet9"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/11" StartDevice="str-msn2700-01" StartPort="Ethernet10"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/12" StartDevice="str-msn2700-01" StartPort="Ethernet11"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/13" StartDevice="str-msn2700-01" StartPort="Ethernet12"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/14" StartDevice="str-msn2700-01" StartPort="Ethernet13"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/15" StartDevice="str-msn2700-01" StartPort="Ethernet14"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/16" StartDevice="str-msn2700-01" StartPort="Ethernet15"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/17" StartDevice="str-msn2700-01" StartPort="Ethernet16"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/18" StartDevice="str-msn2700-01" StartPort="Ethernet17"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/19" StartDevice="str-msn2700-01" StartPort="Ethernet18"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/20" StartDevice="str-msn2700-01" StartPort="Ethernet19"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/21" StartDevice="str-msn2700-01" StartPort="Ethernet20"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/22" StartDevice="str-msn2700-01" StartPort="Ethernet21"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/23" StartDevice="str-msn2700-01" StartPort="Ethernet22"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/24" StartDevice="str-msn2700-01" StartPort="Ethernet23"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/25" StartDevice="str-msn2700-01" StartPort="Ethernet24"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/26" StartDevice="str-msn2700-01" StartPort="Ethernet25"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/27" StartDevice="str-msn2700-01" StartPort="Ethernet26"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/28" StartDevice="str-msn2700-01" StartPort="Ethernet27"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/29" StartDevice="str-msn2700-01" StartPort="Ethernet28"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/30" StartDevice="str-msn2700-01" StartPort="Ethernet29"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/31" StartDevice="str-msn2700-01" StartPort="Ethernet30"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/32" StartDevice="str-msn2700-01" StartPort="Ethernet31"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="str-7260-10" EndPort="TFGigabitEthernet 0/33" StartDevice="str-msn2700-01" StartPort="Ethernet32"/>
+      <DeviceInterfaceLink BandWidth="25000" EndDevice="STR-ACS-VSERV-01" EndPort="enp66s0f1" StartDevice="str-7260-10" StartPort="TFGigabitEthernet 0/1"/>
+    </DeviceInterfaceLinks>
+  </PhysicalNetworkGraphDeclaration>
+  <DataPlaneGraph>
+   <DevicesL3Info Hostname="str-7260-10">
+      <ManagementIPInterface Name="ManagementIp" Prefix="172.28.55.188/24"/>
+    </DevicesL3Info>
+    <DevicesL2Info Hostname="str-7260-10">
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/1" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/2" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/3" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/4" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/5" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/6" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/7" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/8" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/9" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/10" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/11" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/12" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/13" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/14" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/15" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/16" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/17" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/18" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/19" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/20" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/21" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/22" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/23" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/24" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/25" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/26" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/27" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/28" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/29" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/30" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/31" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/32" vlanids="1"/>
+      <InterfaceVlan mode="Access" portname="TFGigabitEthernet 0/33" vlanids="1"/>
+    </DevicesL2Info>
+  </DataPlaneGraph>
+</LabConnectionGraph>
